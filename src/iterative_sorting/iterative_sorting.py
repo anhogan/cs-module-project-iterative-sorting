@@ -16,7 +16,7 @@ def selection_sort(arr):
 def bubble_sort(arr):
     # Loop through all elements
     for i in range(len(arr)):
-        # Last elements are already in place
+        # Moving largest element far right sets it in place so inner loop can be one less than current index each pass
         for j in range(len(arr) - i - 1):
             if arr[j] > arr[j + 1]:
                 # Swap if next element is smaller than current one
