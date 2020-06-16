@@ -24,6 +24,16 @@ def bubble_sort(arr):
 
     return arr
 
+    # CLASS SOLUTION
+    # swaps_ocurred = True
+    # while swaps_ocurred:
+    #     swaps_ocurred = False
+    #     for i in range(0, len(arr) - 1):
+    #         if arr[i] > arr[i + 1]:
+    #             arr[i], arr[i + 1] = arr[i + 1], arr[i]
+    #             swaps_ocurred = True
+    # return arr
+
 '''
 STRETCH: implement the Count Sort function below
 
